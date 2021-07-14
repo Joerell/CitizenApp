@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">SoftwareEngineeringTwo</string>
+    <string name="project_name">E-Monitoring of Vaccination and Contact Tracking System</string>
+    <string name="project_abri">E-MVCTS</string>
+    <string name="login">Log In</string>
+    <string name="register">Register</string>
+    <string name="additional_info">Additional Information</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="address">Address</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="age">Age</string>
+    <string name="barangay">Barangay</string>
+    <string name="phonenumber">Phone Number</string>
+    <string name="birthday">Birthday</string>
+    <string name="submit">Submit</string>
+    <string name="privacy_policy">By ticking this box I agree that I have read the privacy policy and consent to the given information being used by E-MVCTS.</string>
+    <string name="register_entry">Dont have an account yet?</string>
+    <string name="register_here">Register Here</string>
+</resources>
