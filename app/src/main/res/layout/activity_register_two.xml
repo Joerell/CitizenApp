@@ -4,40 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background"
     tools:context=".RegisterTwo">
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="660dp"
-        android:fontFamily="@font/ubuntu_light"
-        android:text="@string/register"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="100dp"
         android:fontFamily="@font/ubuntu_light"
         android:text="@string/additional_info"
+        android:textColor="@color/white"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/et_address"
         android:layout_width="325dp"
         android:layout_height="40dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="100dp"
         android:fontFamily="@font/ubuntu_light"
         android:gravity="center"
         android:hint="@string/address"
         android:inputType="textMultiLine"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
@@ -46,7 +39,7 @@
         android:id="@+id/rg_gender"
         android:layout_width="325dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="40dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et_address">
@@ -57,8 +50,9 @@
             android:layout_height="40dp"
             android:fontFamily="@font/ubuntu_light"
             android:gravity="center"
-            android:textSize="18sp"
             android:hint="@string/gender_male"
+            android:textColorHint="@color/white"
+            android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -68,76 +62,74 @@
             android:layout_height="40dp"
             android:fontFamily="@font/ubuntu_light"
             android:gravity="center"
-            android:textSize="18sp"
-            android:hint="@string/gender_female" />
+            android:hint="@string/gender_female"
+            android:textColorHint="@color/white"
+            android:textSize="18sp" />
     </RadioGroup>
-    <EditText
-        android:id="@+id/et_birthday"
+
+
+    <TextView
+        android:id="@+id/tv_birthday"
         android:layout_width="325dp"
         android:layout_height="40dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="40dp"
         android:fontFamily="@font/ubuntu_light"
         android:gravity="center"
         android:hint="@string/birthday"
         android:inputType="date"
-        android:maxLength="3"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rg_gender" />
-
-    <EditText
-        android:id="@+id/et_age"
-        android:layout_width="325dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="20dp"
-        android:fontFamily="@font/ubuntu_light"
-        android:gravity="center"
-        android:hint="@string/age"
-        android:inputType="number"
-        android:maxLength="3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_birthday" />
-
-
-
-    <EditText
-        android:id="@+id/et_barangay"
-        android:layout_width="325dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="20dp"
-        android:fontFamily="@font/ubuntu_light"
-        android:gravity="center"
-        android:hint="@string/barangay"
-        android:inputType="text"
-        android:maxLength="20"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_age" />
+        app:layout_constraintTop_toBottomOf="@id/rg_gender" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_submit"   android:layout_height="44dp"
+        android:id="@+id/btn_submit"
         android:layout_width="159dp"
-
-        android:layout_marginTop="20dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="40dp"
         android:background="@drawable/rounded_corners"
+        android:enabled="false"
         android:fontFamily="@font/ubuntu_medium"
         android:text="@string/submit"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_barangay" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_birthday" />
 
     <CheckBox
-        android:id="@+id/checkBox3"
+        android:id="@+id/cb_privacy_policy"
         android:layout_width="310dp"
         android:layout_height="105dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="40dp"
         android:fontFamily="@font/ubuntu_light"
         android:text="@string/privacy_policy"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_submit" />
 
+    <RelativeLayout
+        android:id="@+id/prog_bar_holder_reg_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="380dp"
+        android:background="@drawable/progressbar_bg"
+        android:elevation="10dp"
+        android:padding="20dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
+
+        <ProgressBar
+            android:id="@+id/prog_bar_reg_two"
+            android:layout_width="30dp"
+            android:visibility="invisible"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:indeterminateTint="@color/black"/>
+    </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

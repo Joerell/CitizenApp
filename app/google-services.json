@@ -1,33 +1,34 @@
 {
   "project_info": {
-    "project_number": "176795021022",
-    "project_id": "softwareengineeringtwo-9f7b6",
-    "storage_bucket": "softwareengineeringtwo-9f7b6.appspot.com"
+    "project_number": "584141931699",
+    "firebase_url": "https://emvctsystem-default-rtdb.firebaseio.com",
+    "project_id": "emvctsystem",
+    "storage_bucket": "emvctsystem.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:176795021022:android:42e2039858cf36ef765c4f",
+        "mobilesdk_app_id": "1:584141931699:android:1911c51dd0e86b7b7c1cc6",
         "android_client_info": {
           "package_name": "com.example.softwareengineeringtwo"
         }
       },
       "oauth_client": [
         {
-          "client_id": "176795021022-7rh2lhi86hosaj6rvhv9i2paf2fln3go.apps.googleusercontent.com",
+          "client_id": "584141931699-ul57q2kqo6i1fd3877fuh28eov6lp3l4.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBlzM48MeRu3RowHeNJ1dznqtH0x973szE"
+          "current_key": "AIzaSyBqSWg6kH5l8A03zoxdd7U-mszlq4TTojI"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "176795021022-7rh2lhi86hosaj6rvhv9i2paf2fln3go.apps.googleusercontent.com",
+              "client_id": "584141931699-ul57q2kqo6i1fd3877fuh28eov6lp3l4.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

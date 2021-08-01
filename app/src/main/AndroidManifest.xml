@@ -11,9 +11,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SoftwareEngineeringTwo">
-        <activity android:name=".RegisterTwo"></activity>
-        <activity android:name=".RegisterActivity">
+        <activity android:name=".Update_email_password" android:parentActivityName=".Update" android:theme="@style/ForBack" android:label=""></activity>
+        <activity android:name=".Update" android:parentActivityName=".Update_email_password" android:theme="@style/ForBack" android:label="" >
+      ]
         </activity>
+        <activity android:name=".EmailVerification" />
+        <activity android:name=".RegisterTwo" >
+
+        </activity>
+        <activity android:name=".RegisterActivity" />
         <activity android:name=".Entry_Page" />
         <activity android:name=".Splash_Screen">
             <intent-filter>
@@ -22,7 +28,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".MainActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
